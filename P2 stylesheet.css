@@ -1,0 +1,29 @@
+header{ 
+    flex-direction: row; 
+    font-size: 50pt; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-style: italic; color:rgb(35, 13, 87); 
+    background-color: rgb(13, 112, 121); 
+    border-width: 1px;}
+ul{ background-color: darkseagreen; font-size: 20pt; display:flex}
+li{ display: inline; width: auto; text-align: end;
+     padding: 25px;
+      align-items: end;
+       margin: 0px;}
+.center{ display:block;
+     margin-left: auto;
+      margin-right: auto;
+       width: 25%;
+        border-radius: 50%; }
+h1{ background-color: rgb(13, 112, 121);
+     font-size: 30pt;
+      text-align: center;
+       color: rgb(35, 13, 87)}
+p{ background-color: rgb(13, 112, 121);
+    box-sizing: content-box; color: whitesmoke}
+.container{ display:flex; 
+    flex-direction: row ; background-color: darkseagreen;}
+@media (max-width: 600px) {main.container { flex-direction: column;}
+    
+}
+.project{ border-radius: 25%; padding: 10px; size: 50px;}
