@@ -19,11 +19,10 @@ h1{ background-color: rgb(13, 112, 121);
      font-size: 30pt;
       text-align: center;
        color: rgb(35, 13, 87)}
-p{ background-color: rgb(13, 112, 121);
-    box-sizing: content-box; color: whitesmoke}
+p{ background-color: darkseagreen;
+    box-sizing: content-box; color: rgb(35, 13, 87); font-size: medium; text-align: center; font-size: 15pt; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .container{ display:flex; 
     flex-direction: row ; background-color: darkseagreen;}
-@media (max-width: 600px) {main.container { flex-direction: column;}
-    
-}
+@media (max-width: 600px) {.container { flex-direction: column;} }
+h2{ text-align: center; font-size: 30pt; background-color: rgb(13, 112, 121); color: rgb(35, 13, 87)}
 .project{ border-radius: 25%; padding: 10px; size: 50px;}
